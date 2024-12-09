@@ -1,0 +1,144 @@
+/* 1 screen */
+
+.flower{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #E3E3FF;
+    border-radius: 47%;
+    animation: flower_pulse 1s linear infinite;
+}
+.flower:hover{
+    background-color: #FFFF00;
+}
+    @keyframes flower_pulse{
+        0%{}
+        50%{scale: 140%;}
+        100%{scale: 100%;}
+    }
+.flower1{
+    left: 17%;
+    top: 3vh;
+}
+.flower2{
+    left: 34%;
+    top: 3.3vh;
+}
+.flower3{
+    left: 14%;
+    top: 4.8vh;
+}
+.flower4{
+    left: 32%;
+    top: 4.9vh;
+}
+.corner_left{
+    position: absolute;
+    background-color: #0A0832;
+    height: 13vh;
+    width: 7vw;
+    border-bottom-right-radius: 100%;
+    z-index: 100;
+}
+.corner_right{
+    position: absolute;
+    background-color: #0A0832;
+    height: 13vh;
+    width: 7vw;
+    border-bottom-left-radius: 100%;
+    z-index: 100;
+    left: 93%;
+}
+
+
+
+/* ---------------- lines ---------------- */
+.line{
+    position: absolute;
+    background-color: #837C96;
+    overflow: hidden;
+    width: 4.5vw;
+    height: 100vh;
+}
+.man_containeer{
+    position: relative;
+    width: 4.5vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.man{
+    position: absolute;
+    width: 3.5vw;
+    margin-left: 0.35vw;
+    animation: man 6s linear infinite;
+}
+    @keyframes man {
+        0%{top: -120%}
+        100%{top: -5%}
+    }
+
+.lineright{
+    margin-left: 95.58%; 
+}
+.man_containeer_right{
+    position: relative;
+    width: 4.5vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.man_right {
+    position: absolute;
+    rotate: 180deg;
+    width: 3.5vw;
+    margin-left: 0.8vw;
+    animation: man 6s linear infinite;
+}
+
+.linetop{
+    width: 100%;
+    height: 7.87vh;  
+    opacity: 10%;  
+}
+
+.man_containeer_top{
+    position: absolute;
+    width: 1080px;
+    height: 4.5vw;
+    overflow: hidden;
+}
+.man_top{
+    position: absolute;
+    width: 3.5vw;
+    animation: mantop 6s linear infinite;
+}
+    @keyframes mantop {
+        0%{left: -120%}
+        100%{left: -5%}
+    }
+/* -------------- lines end -------------- */
+
+
+/* -------------- illustration -------------- */
+
+/* .illustration_container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/S1_illustration_gray.svg);
+} */
+
+.illustration_gray{
+    width: 100%;
+    height: 98vh;
+}
+
+.illustration_up-element{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 10;
+}
+
+
+
+/* ------------ illustration end ------------ */
