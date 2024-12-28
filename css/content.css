@@ -1,8 +1,7 @@
 body{
     width: 100%;
     overflow-x: hidden;
-    left: 0;
-    right: 0;
+    left: 5vw;
 }
 
 .flower{
