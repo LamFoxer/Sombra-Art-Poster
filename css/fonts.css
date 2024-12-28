@@ -1,9 +1,22 @@
 @font-face{
-    font-family: "";
-    src: url("../fonts/");
+    font-family: "Dobryak";
+    src: url("../fonts/Dobryak_font.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "BiplSans";
+    src: url("../fonts/Bipl\ Sans.otf");
     font-style: normal;
     font-weight: normal;
 }
 /* 
 --------------------------ITALIC--------------------------------
 */
+@font-face{
+    font-family: "Zvezda";
+    src: url("../fonts/Zvezda\ NHZDN\ Bold\ Italic.ttf");
+    font-style: italic;
+    font-weight: normal;
+}
