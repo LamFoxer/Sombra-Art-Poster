@@ -1,7 +1,6 @@
 body{
     width: 100%;
     overflow-x: hidden;
-    left: 5vw;
 }
 
 .flower{
@@ -386,7 +385,7 @@ body{
     width: 40vw;
     height: 40vw;
     left: -5vw;
-    top: 52vw;
+    top: 51vw;
 }
 
 .triangle2{
